@@ -114,6 +114,85 @@
           "options": {
             "feedback": ""
           }
+        },
+        {
+          "materiaType": "question",
+          "id": null,
+          "type": "MC",
+          "questions": [
+            {
+              "text": "Which sound are you more likely to hear in a forest?"
+            }
+          ],
+          "answers": [
+            {
+              "id": null,
+              "text": "Birds chirping",
+              "value": 100,
+              "options": {
+                "asset": {
+                  "materiaType": "asset",
+                  "id": "<%MEDIA='assets/img/demo/birds.mp3'%>",
+                  "type": "audio",
+                  "value": "<%MEDIA='assets/img/demo/birds.mp3'%>"
+                }
+              }
+            },
+            {
+              "id": null,
+              "text": "A popular music video",
+              "value": 0,
+              "options": {
+                "asset": {
+                  "materiaType": "asset",
+                  "value": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                  "type": "video"
+                }
+              }
+            }
+          ],
+          "options": {
+            "feedback": ""
+          }
+        },
+        {
+          "materiaType": "question",
+          "id": null,
+          "type": "MC",
+          "questions": [
+            {
+              "text": "Why do valves cause inefficient fluid flow?"
+            }
+          ],
+          "answers": [
+            {
+              "id": null,
+              "text": "-",
+              "value": 100,
+              "options": {
+                "asset": {
+                  "materiaType": "asset",
+                  "value": "Form friction",
+                  "type": "text"
+                }
+              }
+            },
+            {
+              "id": null,
+              "text": "-",
+              "value": 0,
+              "options": {
+                "asset": {
+                  "materiaType": "asset",
+                  "value": "Skin friction",
+                  "type": "text"
+                }
+              }
+            }
+          ],
+          "options": {
+            "feedback": ""
+          }
         }
       ]
     }
